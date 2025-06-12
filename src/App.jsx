@@ -1,4 +1,6 @@
 import Navbar from "./navbar"
+import image1 from "./assets/Rectangle@2x.png"
+import image2 from "./assets/Rectangle.png"
 import "./App.css"
 
 export default function App() {
@@ -16,7 +18,7 @@ export default function App() {
                 <div className="title-line">
                   <span>I AM A</span>
                   <div className="icon-placeholder icon-1">
-                    <span>🎨</span>
+                    <img src={image1} alt="Design Icon" />
                   </div>
                   <span>FREELANCE</span>
                 </div>
