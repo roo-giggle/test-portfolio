@@ -1,0 +1,104 @@
+#testimonial-faq-container {
+  background-color: #0a0a0e;
+  color: white;
+  padding: 60px 40px;
+  font-family: "Arial", sans-serif;
+}
+
+/* TESTIMONIAL */
+.testimonial-block h2,
+.faq-block h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.avatar-section {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.avatar-section img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.company {
+  font-size: 14px;
+  color: #999;
+}
+
+.quote {
+  flex: 1;
+  font-size: 18px;
+  line-height: 1.6;
+  position: relative;
+}
+
+.quote-mark {
+  font-size: 40px;
+  font-weight: bold;
+  opacity: 0.2;
+  position: absolute;
+  top: -20px;
+  left: -30px;
+}
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.controls button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.controls button:first-child {
+  border: 2px solid orangered;
+  background-color: transparent;
+  color: orangered;
+}
+
+/* FAQ */
+.faq-block {
+  margin-top: 80px;
+}
+
+.faq-item {
+  margin-bottom: 24px;
+}
+
+.question {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.answer {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #ccc;
+  line-height: 1.6;
+}

@@ -1,0 +1,30 @@
+#expertise {
+  background-color: #0a0a0e;
+  color: white;
+  padding: 60px 40px;
+  font-family: "Arial", sans-serif;
+}
+
+#expertise h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 80px;
+}
+
+.expertise-card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.expertise-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #cccccc;
+}

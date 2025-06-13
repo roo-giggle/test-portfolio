@@ -1,0 +1,107 @@
+.custom-footer {
+  background-color: #0a0a0e;
+  color: #fff;
+  padding: 50px 30px;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  text-align: center;
+  /* overflow: hidden; */
+}
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 80px;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: scroll 20s linear infinite;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.marquee-content span {
+  margin: 0 30px;
+  color: #e5e5e5;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+
+.marquee-content .star {
+  -webkit-text-stroke: 0;
+  color: white;
+  font-size: 40px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.center-message h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.center-message p {
+  font-size: 18px;
+}
+
+.center-message a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.center-message a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.footer-bottom .socials {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-bottom .socials a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom .socials a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .center-message h1 {
+    font-size: 40px;
+  }
+
+  .marquee-content {
+    font-size: 32px;
+  }
+}
